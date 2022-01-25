@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+}
+
+.header__container {
+    background-color: rgb(35, 35, 204);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header__item:nth-child(2) {
+    margin-left: 10vw;
+}
+
+.header__item:nth-child(3) {
+    margin-left: auto;
+}
+
+.icon__action {
+    margin: 0 2vw;
+}
+
+.icon__action {
+    width: 32px;
+}
+
+.header--fixed {
+   position: fixed;
+   width: 70%;
+   min-width: 30rem;
+  margin: 1rem;
+}
+
+.space {
+    padding: 5rem;
+}
+
