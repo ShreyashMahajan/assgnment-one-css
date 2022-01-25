@@ -1,0 +1,117 @@
+.badge {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.badge--text {
+    position: relative;
+    display: inline;
+}
+
+.badge--content {
+    position: absolute;
+    background-color: blue;
+    padding: 3px;
+    border-radius: 100%;
+    top: -10px; 
+    color: white;
+}
+
+/* ------------------------ */
+
+.badge--large {
+    position: relative;
+    margin-bottom: 1rem ;
+}
+
+.badge__Text--large {
+    position: relative;
+}
+
+.badge__Text--content {
+    background-color: red;
+    color: white;
+    padding: 6px;
+    border-radius: 100%;
+    position: absolute;
+    top: -10px;
+    margin-left: -10px;
+}
+
+/* ============================= */
+
+
+.button--badge {
+    position: relative;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.button__title {
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    font-size: large;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.button__content--badge {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    background-color: black;
+    padding: 8px;
+    border-radius: 100%;
+    color: white;
+}
+
+/* ---------------------------------- */
+
+.iconBadge {
+    background-color: black;
+    width: 40%;
+    height: 100px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.icon--image {
+    position: relative;
+}
+
+.icon__Badge--title {
+    position: absolute;
+    top:0;
+    margin-left: -15px;
+    background-color: beige;
+    padding: 5px;
+    border-radius: 100%;
+    
+}
+
+
+.toggle--badge {
+    position: relative;
+}
+
+.btn--toggle {
+    position: relative;
+    background-color:turquoise;
+    padding: 0.5rem 2rem ;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.toggle__content {
+    position: absolute;
+    padding: 5px;
+    background-color: black;
+    border-radius: 100%;
+    color: turquoise;
+    top: -10px;
+    margin-left: -10px;
+}
