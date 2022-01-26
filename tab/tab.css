@@ -1,0 +1,15 @@
+
+.tab-container {
+    width: 80% ;
+    border: 1px solid black;
+    padding: 1rem;
+    margin:auto;
+}
+
+.btn__tab {
+    padding: 1rem;
+    border: 1px solid white;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
