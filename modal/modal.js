@@ -12,24 +12,24 @@ let [btnActionOne, btnActionTwo] = btnAction;
 let modalCardActive = false;
 let modalCardActiveSimple = false;
 
-function modalActive(dummyModalActive, dummyModalCard) {
-    if( dummyModalActive === false){
-        dummyModalCard.style.visibility = "visible";
-        dummyModalActive = true;
+function modalActive() {
+    if( modalCardActive === false){
+        modalCard.style.visibility = "visible";
+        modalCardActive = true;
         document.body.style.backgroundColor = "rgb(185, 180, 180)";
     }else {
-        dummyModalCard.style.visibility = "hidden";
-        dummyModalActive = false;
+        modalCard.style.visibility = "hidden";
+        modalCardActive = false;
         document.body.style.backgroundColor = "white"
     }
 }
 
 btnShowModal.addEventListener("click", () => {
-    modalActive(modalCardActive, modalCard );
+    modalActive();
 })
 
 btnActionOne.addEventListener('click', () => {
-    modalActive(modalCardActive, modalCard );
+    modalActive();
 })
 
 btnActionTwo.addEventListener('click', () => {
