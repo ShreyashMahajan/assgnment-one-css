@@ -37,3 +37,22 @@ body {
     padding: 5rem;
 }
 
+.header--prominent .header__item {
+    margin-left: auto;
+}
+
+.header--prominent .header__sub-container {
+    display: flex;
+    width: 15rem;
+    height: 8rem;
+}
+
+.header__sub-container .header--title {
+    margin-top: auto;
+}
+
+.header--short {
+    padding: 1rem;
+    width: 20%;
+    border-bottom-right-radius: 2rem;
+}
