@@ -1,0 +1,85 @@
+.chip__container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+
+.btn__chip {
+    font-weight: bold;
+    border-radius: 2rem;
+    padding: 0.4rem 1rem;
+    margin: 0.5rem;
+}
+
+
+
+.chip--cross{
+   
+    width: 6rem;
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0;
+   background-color: rgb(219, 214, 214);
+}
+
+.chip--cross:hover {
+    background-color: rgb(172, 167, 167);
+
+}
+
+.chip--text {
+    margin: 0.5rem;
+    margin-right: 0.2rem;
+}
+
+
+.chip__img--cross{
+    background-color: rgb(177, 172, 172);
+    border-radius: 100%;
+    width: 20px;
+}
+
+.chip__img--cross:hover {
+    background-color: rgb(70, 68, 68);
+}
+
+.chip--simple:hover {
+    background-color: rgb(172, 167, 167);
+
+}
+
+.chip--formControl {
+    border-radius: 0rem;
+}
+
+.chip--formControl:hover {
+    background-color: initial;
+}
+
+.chip--colored {
+    background-color: rgb(245, 6, 85);
+    color: #fff;
+    justify-content: flex-start;
+}
+
+.color--blue {
+    background-color: powderblue;
+    color: black;
+}
+
+.stacked-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 1rem;
+    width: 15rem;
+}
+
+.stacked-container .btn__chip {
+    max-width: 10rem;
+}
+
